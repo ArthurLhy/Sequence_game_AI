@@ -1,4 +1,4 @@
-# Game Interface
+# Game Interface Intro
 
 The idea is to design a framework that can integrate different turn based multiplayer games.
 
