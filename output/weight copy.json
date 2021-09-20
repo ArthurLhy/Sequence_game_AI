@@ -1,0 +1,19 @@
+{
+    "draft_makeseq": 24.863496545706905,
+    "draft_seq_point": 2.9956584305039526,
+    "place_heart": 1.5853996501959124,
+    "place_profit_seq": 68.032267691508,
+    "place_profit_point": 20.620727323157837,
+    "place_harm_seq": 2.632284962420564,
+    "place_harm_point": -8.006445669683446,
+    "draft_double_eye": 6.433039661242232,
+    "draft_single_eye": -0.2735331445422346,
+    "remove_heart": 2.7760608719860085,
+    "remove_profit_seq": 7.7488779846979305,
+    "remove_profit_point": 8.404695725220106,
+    "remove_harm_point": 6.782842495380777,
+    "place_around": 0.17873160434291113,
+    "place_anti_around": -0.0794609598779367,
+    "remove_around": 1.3304633280745466,
+    "remove_anti_around": 0.5916287552195489
+}

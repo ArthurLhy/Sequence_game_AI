@@ -194,7 +194,7 @@ class SequenceGameRule(GameRule):
         #If action was to trade in a dead card, action is complete, and agent gets to play another card.
         if action['type']=='trade':
             plr_state.trade = True #Switch trade flag to prohibit agent performing a second trade this turn.
-            plr_state.agent_trace.action_reward.append((action,reward)) #Log this turn's action and score (zero).
+            plr_state.agent_trace.action_reward.append((action,reward))
             return state
 
         #Update Sequence board. If action was to place/remove a marker, add/subtract it from the board.
@@ -202,7 +202,7 @@ class SequenceGameRule(GameRule):
         if action['type']=='place':
             state.board.chips[r][c] = plr_state.colour
             state.board.empty_coords.remove(action['coords'])
-            state.board.plr_coords[plr_state.colour].append(action['coords'])
+            state.board.plr_coords[plr_state.colour].append(action['coords'])            
         elif action['type']=='remove':
             state.board.chips[r][c] = EMPTY
             state.board.empty_coords.append(action['coords'])
